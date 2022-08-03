@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  AWS_BUCKET: "arn:aws:s3:::test-374098413234-dev-prj3"
+  AWS_PROFILE: default
+  AWS_REGION: us-west-1
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: "prj3.ch6jf9a7hqpe.us-east-1.rds.amazonaws.com"
+  PORT: "5432"
+  FRONT_URL: "http://localhost:8100"
